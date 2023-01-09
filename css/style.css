@@ -626,7 +626,7 @@ gap: 30px;
     font-style: normal;
 }
 .address-thumb {
-    margin-right: 70px;
+    margin-right: 93px;
 }
 .footer-logo {
     display: block;
@@ -789,6 +789,8 @@ gap: 30px;
 }
 .close-button {
     position: absolute;
+    display: flex;
+    align-items: center;
     top: 8px;
     right: 8px;
     width: 30px;
@@ -879,6 +881,7 @@ gap: 30px;
     fill: var(--color-blue);
 }
 .form-textarea {
+    display: block;
     width: 448px;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -918,13 +921,14 @@ gap: 30px;
     background-color: var(--color-btn-focus);
 }
 .checkbox-label {
-    padding-left: 24px;
+    padding-left: 38px;
 }
 .checkbox-field {
     appearance: none;
 }
 .terms-icon {
     position: absolute;
+    left: 52px;
     fill: var(--color-white-txt);
     border: 2px solid var(--color-text-secondary);
     border-radius: 4px;
