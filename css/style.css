@@ -95,7 +95,7 @@ p {
 }
 
 /* logo */
-.header-nav {
+.header__container {
     display: flex;
 }
 
@@ -112,7 +112,7 @@ p {
     margin: 0 auto;
     border-bottom: 1px solid var(--color-border);
 }
-.header-logo {
+.header__logo {
     display: inline-block;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -139,7 +139,7 @@ p {
     margin-right: 50px;
 }
 
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
 }
